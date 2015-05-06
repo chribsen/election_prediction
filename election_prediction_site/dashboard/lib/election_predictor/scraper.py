@@ -10,7 +10,7 @@ from dashboard.models import Page, Post, Comment, Like, Reply
 class Scraper:
 
     def __init__(self):
-        self.access_token = 'CAACEdEose0cBANEZAPnkCb31sixiusZB90j9X0dDVrKEZCZBQspgc4QpN9sGo16AtqXQXOtZBS4f9F2dNkAL1xeGvpbOvAUns4UU87RWZBRnVieLkKZAFSUcZC67PtfZB4R4cZBXbycPX7RZB0fDqKrrS7l5wM2Jh6ZAeFfz2nEcBpD9jHmUjbmS1XDKqRbo11F8xHuePGGkYUTgw85ZCq7ZCbsVUQZAO0FWduHoBYZD'
+        self.access_token = 'CAACEdEose0cBAEGB0sUyss8lHLvePPuMD0TY4MshR9wNNid4mTkwIZAeKH9hkZBcJrbeJvFtwtDqcbbZAs2yYQEJqo9inFqqH3U4z7sQ2LhEx5QDxNrLxZAaSJZAtzaHvL9mzab22BAqVgrdikPH5epgcNmytrjPgZCuIoBLNQxfpvYBo8bRhUBzP6zLMI9WRZBGkP3eeez0gOCWoOCkpXX6toK9VCJaoMZD'
         self.wall_posts_url = 'https://graph.facebook.com/{page_id}/feed?access_token={token}'
         self.posts_url = 'https://graph.facebook.com/{page_id}/posts?since={since}&access_token={token}'
         self.comments_url = 'https://graph.facebook.com/{post_id}/comments?access_token={token}&fields=id,comment_count,created_time,from,like_count,message'
