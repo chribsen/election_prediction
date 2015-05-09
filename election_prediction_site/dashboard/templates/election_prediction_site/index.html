@@ -1,23 +1,213 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Data Mining paa folketingets facebooksider</title>
 </head>
 <body>
+    {% load bootstrap3 %}
+    {% bootstrap_css %}
+{% bootstrap_javascript %}
+{% load staticfiles %}
+<img src="{% static "dashboard/css/mystyles.css" %}"/>
 
-<h1>Overall prediction</h1>
+<div class="jumbotron">
+  <div class="container">
+
+<h1>Data Mining @ Folketinget</h1>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="box">
+                <div class="box-icon">
+                    <span class="fa fa-4x fa-html5"></span>
+                </div>
+                <div class="info">
+                    <h4 class="text-center">Title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti atque, tenetur quam aspernatur corporis at explicabo nulla dolore necessitatibus doloremque exercitationem sequi dolorem architecto perferendis quas aperiam debitis dolor soluta!</p>
+                    <a href="" class="btn">Link</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="box">
+                <div class="box-icon">
+                    <span class="fa fa-4x fa-css3"></span>
+                </div>
+                <div class="info">
+                    <h4 class="text-center">Title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti atque, tenetur quam aspernatur corporis at explicabo nulla dolore necessitatibus doloremque exercitationem sequi dolorem architecto perferendis quas aperiam debitis dolor soluta!</p>
+                    <a href="" class="btn">Link</a>
+                </div>
+            </div>
+        </div>
+	</div>
+
+
+      <div class="row">
+    <h2>3D Buttons</h2>
+        <div class="well text-center">
+            <button type="button" class="btn btn-hot text-uppercase btn-lg">DF</button>
+            <button type="button" class="btn btn-sky text-uppercase btn-lg">LA</button>
+            <button type="button" class="btn btn-sunny text-uppercase btn-lg">Konservative</button>
+            <button type="button" class="btn btn-fresh text-uppercase btn-lg">Venstre</button>
+            <button type="button" class="btn btn-sky text-uppercase btn-lg">Socialdemokraterne</button>
+            <button type="button" class="btn btn-sky text-uppercase btn-lg">Radikale</button>
+            <button type="button" class="btn btn-sky text-uppercase btn-lg">Enhedslisten</button>
+        </div>
+
+	</div>
+
+<h3>Overall prediction</h3>
 <p>Something here</p>
 
-    {{figure|safe}}
+    {{graph1|safe}}
 
-<h1>Sentiment score on party</h1>
+<h3>Sentiment score on party</h3>
 
-<h1>Sentiment over time</h1>
+{{histogram|safe}}
+<h3>Sentiment over time</h3>
+{{graph2|safe}}
 
-<h1>Who has the most negative comments?</h1>
+<h3>Who has the most negative comments?</h3>
 
-<h1>Who receives the highest like-to-comment ratio?</h1>
+<h3>Who receives the highest like-to-comment ratio?</h3>
+
+</div>
 
 
+    <div class="row">
+		<h2>Carousel Reviews</h2>
+	</div>
+</div>
+<div class="carousel-reviews broun-block">
+    <div class="container">
+        <div class="row">
+                    <div class="item active">
+                	    <div class="col-md-4 col-sm-6">
+        				    <div class="block-text rel zmin">
+						        <a title="" href="#">Hercules</a>
+							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+						        <p>Never before has there been a good film portrayal of ancient Greece's favourite myth. So why would Hollywood start now? This latest attempt at bringing the son of Zeus to the big screen is brought to us by X-Men: The last Stand director Brett Ratner. If the name of the director wasn't enough to dissuade ...</p>
+							    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+					        </div>
+							<div class="person-text rel">
+				                <img src=''/>
+								<a title="" href="#">Anna</a>
+								<i>from Glasgow, Scotland</i>
+							</div>
+						</div>
+            			<div class="col-md-4 col-sm-6 hidden-xs">
+						    <div class="block-text rel zmin">
+						        <a title="" href="#">The Purge: Anarchy</a>
+							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+        						<p>The 2013 movie "The Purge" left a bad taste in all of our mouths as nothing more than a pseudo-slasher with a hamfisted plot, poor pacing, and a desperate attempt at "horror." Upon seeing the first trailer for "The Purge: Anarchy," my first and most immediate thought was "we really don't need another one of these."  </p>
+					            <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+				            </div>
+							<div class="person-text rel">
+						        <a title="" href="#">Ella Mentree</a>
+								<i>United States</i>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+							<div class="block-text rel zmin">
+								<a title="" href="#">Planes: Fire & Rescue</a>
+								<div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
+    							<p>What a funny and entertaining film! I did not know what to expect, this is the fourth film in this vehicle's universe with the two Cars movies and then the first Planes movie. I was wondering if maybe Disney pushed it a little bit. However, Planes: Fire and Rescue is an entertaining film that is a fantastic sequel in this magical franchise. </p>
+								<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+							</div>
+							<div class="person-text rel">
+								<a title="" href="#">Rannynm</a>
+								<i>Indonesia</i>
+							</div>
+						</div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-4 col-sm-6">
+        				    <div class="block-text rel zmin">
+						        <a title="" href="#">Hercules</a>
+							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+						        <p>Never before has there been a good film portrayal of ancient Greece's favourite myth. So why would Hollywood start now? This latest attempt at bringing the son of Zeus to the big screen is brought to us by X-Men: The last Stand director Brett Ratner. If the name of the director wasn't enough to dissuade ...</p>
+							    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+					        </div>
+							<div class="person-text rel">
+								<img alt="" src="http://myinstantcms.ru/images/img13.png">
+								<a title="" href="#">Anna</a>
+								<i>from Glasgow, Scotland</i>
+							</div>
+						</div>
+            			<div class="col-md-4 col-sm-6 hidden-xs">
+						    <div class="block-text rel zmin">
+						        <a title="" href="#">The Purge: Anarchy</a>
+							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+        						<p>The 2013 movie "The Purge" left a bad taste in all of our mouths as nothing more than a pseudo-slasher with a hamfisted plot, poor pacing, and a desperate attempt at "horror." Upon seeing the first trailer for "The Purge: Anarchy," my first and most immediate thought was "we really don't need another one of these."  </p>
+					            <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+				            </div>
+							<div class="person-text rel">
+								<img alt="" src="http://myinstantcms.ru/images/img14.png">
+						        <a title="" href="#">Ella Mentree</a>
+								<i>United States</i>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+							<div class="block-text rel zmin">
+								<a title="" href="#">Planes: Fire & Rescue</a>
+								<div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
+    							<p>What a funny and entertaining film! I did not know what to expect, this is the fourth film in this vehicle's universe with the two Cars movies and then the first Planes movie. I was wondering if maybe Disney pushed it a little bit. However, Planes: Fire and Rescue is an entertaining film that is a fantastic sequel in this magical franchise. </p>
+								<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+							</div>
+							<div class="person-text rel">
+								<img alt="" src="http://myinstantcms.ru/images/img15.png">
+								<a title="" href="#">Rannynm</a>
+								<i>Indonesia</i>
+							</div>
+						</div>
+                    </div>
+                    <div class="item">
+                        <div class="col-md-4 col-sm-6">
+        				    <div class="block-text rel zmin">
+						        <a title="" href="#">Hercules</a>
+							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+						        <p>Never before has there been a good film portrayal of ancient Greece's favourite myth. So why would Hollywood start now? This latest attempt at bringing the son of Zeus to the big screen is brought to us by X-Men: The last Stand director Brett Ratner. If the name of the director wasn't enough to dissuade ...</p>
+							    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+					        </div>
+							<div class="person-text rel">
+								<img alt="" src="http://myinstantcms.ru/images/img13.png">
+								<a title="" href="#">Anna</a>
+								<i>from Glasgow, Scotland</i>
+							</div>
+						</div>
+            			<div class="col-md-4 col-sm-6 hidden-xs">
+						    <div class="block-text rel zmin">
+						        <a title="" href="#">The Purge: Anarchy</a>
+							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
+        						<p>The 2013 movie "The Purge" left a bad taste in all of our mouths as nothing more than a pseudo-slasher with a hamfisted plot, poor pacing, and a desperate attempt at "horror." Upon seeing the first trailer for "The Purge: Anarchy," my first and most immediate thought was "we really don't need another one of these."  </p>
+					            <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+				            </div>
+							<div class="person-text rel">
+								<img alt="" src="http://myinstantcms.ru/images/img14.png">
+						        <a title="" href="#">Ella Mentree</a>
+								<i>United States</i>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+							<div class="block-text rel zmin">
+								<a title="" href="#">Planes: Fire & Rescue</a>
+								<div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
+    							<p>What a funny and entertaining film! I did not know what to expect, this is the fourth film in this vehicle's universe with the two Cars movies and then the first Planes movie. I was wondering if maybe Disney pushed it a little bit. However, Planes: Fire and Rescue is an entertaining film that is a fantastic sequel in this magical franchise. </p>
+								<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+							</div>
+							<div class="person-text rel">
+								<img alt="" src="http://myinstantcms.ru/images/img15.png">
+								<a title="" href="#">Rannynm</a>
+								<i>Indonesia</i>
+							</div>
+						</div>
+                    </div>
+        </div>
+    </div>
+
+
+</div>
 </body>
 </html>
