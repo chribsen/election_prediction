@@ -53,18 +53,18 @@
         <option value="$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/preprocessor.py" />
         <option value="$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/predictor.py" />
         <option value="$USER_HOME$/.local/lib/python2.7/site-packages/pywordcloud/pywordcloud.py" />
-        <option value="$PROJECT_DIR$/election_prediction_site/dashboard/views.py" />
         <option value="$PROJECT_DIR$/election_prediction_site/election_prediction_site/settings.py" />
         <option value="$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/scraper.py" />
         <option value="$PROJECT_DIR$/election_prediction_site/dashboard/templates/election_prediction_site/index.html" />
         <option value="$PROJECT_DIR$/election_prediction_site/dashboard/static/dashboard/css/mystyles.css" />
+        <option value="$PROJECT_DIR$/election_prediction_site/dashboard/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -118,6 +118,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="election_prediction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="election_prediction_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="election_prediction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="election_prediction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="election_prediction_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="election_prediction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="election_prediction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="election_prediction_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -439,15 +483,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35851473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07488987" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28117552" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39948782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -480,21 +524,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/management/commands/startscraping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="47" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1080" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/scraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="30" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="2385" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/management/commands/startscraping.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="31" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255" />
@@ -620,16 +649,6 @@
         <state line="24" column="0" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="450" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/analyzer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="34" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/election_prediction_site/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="41" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
@@ -655,46 +674,6 @@
         <state line="205" column="1305" selection-start="159455" selection-end="159457" vertical-scroll-proportion="-1.2428885" vertical-offset="3643" max-vertical-offset="8325" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/management/commands/startscraping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="47" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="1080" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/danish_words/stop_words.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="3" selection-start="476" selection-end="476" vertical-scroll-proportion="5.119454" vertical-offset="0" max-vertical-offset="1590" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/danish_words/AFINN-111.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="37230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/danish_words/SentiWordNet.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1765395" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/preprocessor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/predictor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1530" selection-end="1530" vertical-scroll-proportion="1.205074" vertical-offset="0" max-vertical-offset="705" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.5576208" vertical-offset="150" max-vertical-offset="495">
@@ -716,20 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/scraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="31" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="2580">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/templates/election_prediction_site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="152" selection-end="152" vertical-scroll-proportion="0.24082568" vertical-offset="0" max-vertical-offset="3270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/static/dashboard/css/mystyles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="473">
@@ -739,17 +704,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/election_prediction_site/election_prediction_site/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="17" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.58773786" vertical-offset="307" max-vertical-offset="1785">
+        <state line="39" column="17" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="307" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/management/commands/startscraping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="19" selection-start="323" selection-end="323" vertical-scroll-proportion="0.36764705" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/scraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="31" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.835443" vertical-offset="0" max-vertical-offset="2580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/election_prediction_site/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="29" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/preprocessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="21" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/danish_words/SentiWordNet.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="48" selection-start="449" selection-end="449" vertical-scroll-proportion="0.6051873" vertical-offset="0" max-vertical-offset="1765395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/danish_words/stop_words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="3" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/danish_words/AFINN-111.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="7140" max-vertical-offset="37230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/danish_words/bandeord.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/migrations/0008_auto_20150504_0905.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/templates/election_prediction_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="4" selection-start="2580" selection-end="2580" vertical-scroll-proportion="-6.875" vertical-offset="780" max-vertical-offset="3270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="2083" selection-end="2083" vertical-scroll-proportion="1.6580311" vertical-offset="0" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="323" selection-end="323" vertical-scroll-proportion="0.20725389" vertical-offset="0" max-vertical-offset="579">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="94" selection-start="895" selection-end="901" vertical-scroll-proportion="-0.035885166" vertical-offset="480" max-vertical-offset="1125">
+        <state line="4" column="35" selection-start="154" selection-end="154" vertical-scroll-proportion="0.09966777" vertical-offset="0" max-vertical-offset="1095">
           <folding>
-            <element signature="e#0#55#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/danish_words/slemme_bandeord.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="34" selection-start="128" selection-end="128" vertical-scroll-proportion="0.09966777" vertical-offset="0" max-vertical-offset="602">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/election_prediction_site/dashboard/lib/election_predictor/predictor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="45" selection-start="522" selection-end="522" vertical-scroll-proportion="0.22757475" vertical-offset="103" max-vertical-offset="705">
+          <folding />
         </state>
       </provider>
     </entry>

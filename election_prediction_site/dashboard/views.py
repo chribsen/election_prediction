@@ -1,4 +1,4 @@
-from django.shortcuts import render, render_to_response
+from django.shortcuts import render_to_response
 import numpy as np
 import matplotlib.pyplot as plt, mpld3
 import mpld3
@@ -9,14 +9,14 @@ def home(request):
 
     # Graph
     fig = plt.figure()
-    x = [4,12,14,4,22,18]
-    y = [3,10,16,3,20,17]
-    plt.plot([1,2,3,4], [1,4,9,16], mec='w', mew=5, ms=20)
+    x = [4, 12, 14, 4, 22, 18]
+    y = [3, 10, 16, 3, 20, 17]
+    plt.plot([1, 2, 3, 4], [1, 4, 9, 16], mec='w', mew=5, ms=20)
     graph1 = mpld3.fig_to_html(fig)
 
     # Graph 2
     fig = plt.figure()
-    plt.plot([1,2,3,4], [1,4,9,16], 'ro')
+    plt.plot([1, 2, 3, 4], [1, 4, 9, 16], 'ro')
     graph2 = mpld3.fig_to_html(fig)
 
 
@@ -29,11 +29,9 @@ def home(request):
     ax.hist(x, 30, histtype='stepfilled', fc='lightblue', alpha=0.5);
     histogram = mpld3.fig_to_html(fig)
 
-    return render_to_response('election_prediction_site/index.html', {'graph1': graph1,'graph2':graph2, 'histogram':histogram})
-
-
-
-
+    return render_to_response('election_prediction_site/index.html', {'graph1': graph1,
+                                                                      'graph2': graph2,
+                                                                      'histogram': histogram})
 
 class PlotFactory:
 
