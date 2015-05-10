@@ -81,14 +81,26 @@ WSGI_APPLICATION = 'election_prediction_site.wsgi.application'
 #        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #    }
 #}
+
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'election_prediction',
+#        'USER': 'root',
+#        'PASSWORD': '',
+#        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+#        'PORT': '3306',
+#        'OPTIONS': {'charset': 'utf8mb4'},
+#    }
+#}
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'election_prediction',
-        'USER': 'root',
+        'USER': 'sshuser',
         'PASSWORD': '',
-        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
-        'PORT': '3306',
+        'HOST': '127.0.0.1',   # Or an IP Address that your DB is hosted on
+        'PORT': '3308',
         'OPTIONS': {'charset': 'utf8mb4'},
     }
 }
